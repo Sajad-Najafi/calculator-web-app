@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  background-color: #101116;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

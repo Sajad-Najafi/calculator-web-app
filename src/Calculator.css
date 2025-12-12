@@ -1,0 +1,40 @@
+.container {
+  width: 40rem;
+}
+
+.screen {
+  height: 10rem;
+  line-height: 10rem;
+  padding: 0 2rem;
+  font-size: 3rem;
+  text-align: right;
+  background-color: #262834;
+  color: #fff;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons button {
+  width: 10rem;
+  height: 8rem;
+  border: none;
+  outline: 0;
+  color: #fff;
+  background: #262834;
+  cursor: pointer;
+  font-size: 2.5rem;
+  border: 1px solid rgb(92, 92, 92);
+}
+
+.color {
+  background: #56cbdb !important;
+  color: #262834;
+  font-weight: 600;
+}
+
+.doubleWidth {
+  width: 20rem !important;
+}
